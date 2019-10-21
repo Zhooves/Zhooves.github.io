@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
-      Your browser does not support the video tag.
+  <head>
+    <meta charset="UTF-8">
+    <title>Media Capture Example</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Media Capture Example</h1>
+    </header>
+
+    <main>
+      <p>Some text here. Some text here. Some repeating text here.</p>
+      
+      <p><button id="btnStart">START RECORDING</button><br />
+      <button id="btnStop">STOP RECORDING</button></p>
+
+      <video width="320" height="240" controls>
+        Your browser does not support the video tag.
       </video>
+      <video if="vid2" controls></video>
+    </main>
+    <script>
+      let constraintObj = {
+        audio: false,
+        video: {
+          facingMode: "user",
+        width: {min: 640, ideal: 1280, max: 120},
+        height: {min: 480, ideal: 720, max: 1080}
+        }
+      };
+
+    </script>
+
+    
+  </body>
+    
 </html>
