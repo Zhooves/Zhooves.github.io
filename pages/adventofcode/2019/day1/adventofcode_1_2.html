@@ -1,26 +1,24 @@
-<?php
-	echo "Advent of Code day 1, task 1<br />\n";
-	
-	//file input, declaring output variable
-	$input = file("input.txt");
-	$output = 0;
-	
-	//calculates fuel for intividual entries
-	function calcFuel(&$o,$i) {
-		$r = floor((int)$i/3) - 2;
-		if ($r <= 0)     //if 0, stop recursion
-			return;
-			
-		$o += $r;        //increment output by new fuel value
-		
-		calcFuel($o,$r); //repeat process for the new fuel amount
-	}
-	
-	//grab each line as individual array entries
-	//calculate total output for each entry
-	foreach ($input as $number) {
-		calcFuel($output,$number);
-	}
-	
-	echo "Final output: " . $output . "<br />\n";
-?>
+	echo "Advent of Code day 1, task 1";<br />
+	<br />
+	//file input, declaring output variable<br />
+	$input = file("input.txt");<br />
+	$output = 0;<br />
+	<br />
+	//calculates fuel for intividual entries<br />
+	function calcFuel(&$o,$i) {<br />
+		$r = floor((int)$i/3) - 2;<br />
+		if ($r <= 0)     //if 0, stop recursion<br />
+			return;<br />
+			<br />
+		$o += $r;        //increment output by new fuel value<br />
+		<br />
+		calcFuel($o,$r); //repeat process for the new fuel amount<br />
+	}<br />
+	<br />
+	//grab each line as individual array entries<br />
+	//calculate total output for each entry<br />
+	foreach ($input as $number) {<br />
+		calcFuel($output,$number);<br />
+	}<br />
+	<br />
+	echo "Final output: " . $output;<br />
