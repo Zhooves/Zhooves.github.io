@@ -1,0 +1,66 @@
+{
+  "name": "Crockpot Custom Deck",
+  "description": "Cards specific to the Crockpot and it's circle",
+  "watermark": "AB123",
+  "calls": [
+    {
+      "text": [
+        "",
+        " is something even Njord couldn't make a pun out of."
+      ]
+    },
+    {
+      "text": [
+        "In Arg's quest for money, he turned to ",
+        " to maximise his profits."
+      ]
+    }
+  ],
+  "responses": [
+    {
+        "text": [
+            "Misreading <CROCK> as <COCK>."
+        ]
+    },
+    {
+        "text": [
+			"Njord pulling a pun out of thin air."
+        ]
+    },
+	{
+		"text": [
+			"Amira prioritising glamour over raid gear."
+		]
+	},
+	{
+		"text": [
+			"Rae trying to out-scream Fokko."
+		]
+	},
+	{
+		"text": [
+			"Lexie finding that furry stuff Fokko and Rae likes for the NSFW channel."
+		]
+	},
+	{
+		"text": [
+			"Looking for Njord, not realizing you have to look down now."
+		]
+	},
+	{
+		"text": [
+			"Talking about spending money around Arg."
+		]
+	},
+	{
+		"text": [
+			"Fokko thinking you're from Wales."
+		]
+	},
+	{
+		"text": [
+			"Mentioning Blue Mage within a planet's distance of Njord."
+		]
+	}
+  ]
+}
