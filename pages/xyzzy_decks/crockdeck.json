@@ -1,7 +1,7 @@
 {
   "name": "Crockpot Custom Deck",
   "description": "Cards specific to the Crockpot and it's circle",
-  "watermark": "AB123",
+  "watermark": "CR0CK",
   "calls": [
     {
       "text": [
